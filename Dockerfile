@@ -1,4 +1,4 @@
-FROM node:12.22-buster
+FROM node:19.3-buster
 
 RUN apt-get -y update && apt-get -y install ca-certificates apt-transport-https
 
